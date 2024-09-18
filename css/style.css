@@ -966,6 +966,7 @@ h3{
     color: #fff;
     text-align: center;
     margin-top: auto;
+    padding-top: 2vh;
 
 }
 
@@ -975,9 +976,11 @@ h3{
 }
 
 .container{
+    background-image: linear-gradient(rgba(176, 0, 65, 0),rgba(255, 87, 230, 0)), url('../images/bg-gift.png'); 
+    background-size: cover;
     padding: 30px 5px;
     width: 80%;
-    height: 500px;
+    height: 545px;
     position: relative;
     margin: 6% auto 3%;
     background-color: rgb(255, 170, 231);
@@ -985,6 +988,7 @@ h3{
     color: rgb(0, 0, 0);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.349);
     border-radius: 5px;
+    background-position: center;
 }
 
 
@@ -1122,6 +1126,7 @@ h3{
         margin: 100px auto;
         margin-top: 90px;
         width: 90%;
+        height: 113px;
     }
     .course h1{
         font-size: 40px;
@@ -1132,6 +1137,9 @@ h3{
     .blog-content{
         background-image: linear-gradient(rgba(176, 0, 65, 0),rgba(255, 87, 230, 0)), url('../images/ninja.jpg'); 
         background-size: contain;
+    }
+    .footer-login{
+        padding-top: 40vh;
     }
 }
 /*--------------------------------------------------------------------SLIDER---------------------------*/
